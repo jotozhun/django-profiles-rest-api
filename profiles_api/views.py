@@ -118,7 +118,6 @@ class UserProfileViewSet(viewsets.ModelViewSet):
     search_fields = ('name', 'email',)
 
 
-
 class UserLoginApiView(ObtainAuthToken):
     """Handle creating user authentication tokens"""
     renderer_classes = api_settings.DEFAULT_RENDERER_CLASSES
